@@ -68,7 +68,7 @@ int crop(unsigned char *img,int brim,unsigned char *newImg)
 }
 
 /* Main */
-int rgb2gry(char *infile,char *outfile)
+int main(char *infile,char *outfile)
 {
 	/*
 	if(argc!=5){
