@@ -1,0 +1,19 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AR	Makefile	/^AR := ar$/;"	m
+CC	Makefile	/^CC := g++$/;"	m
+HIDIFF	r2g.c	/^int HIDIFF=40;   \/* The pixel from top image to up edge*\/$/;"	v
+IH	r2g.c	/^int IH=480;   \/* Input image height *\/      $/;"	v
+IW	r2g.c	/^int IW=640;   \/* Input image width *\/$/;"	v
+LENGTH	r2g.c	/^int LENGTH=640*480*3;   \/* The length of image file in Byte *\/$/;"	v
+WIDIFF	r2g.c	/^int WIDIFF=37;   \/* The pixel from detected brim to left edge*\/$/;"	v
+crop	r2g.c	/^int crop(unsigned char *img,int brim,unsigned char *newImg)$/;"	f
+findBrim	r2g.c	/^int findBrim(unsigned char *img,int line)$/;"	f
+main	test.c	/^int main(int argc,char **argv)$/;"	f
+newIH	r2g.c	/^int newIH=330;   \/* Output image height *\/$/;"	v
+newIW	r2g.c	/^int newIW=330;   \/* Output image width *\/$/;"	v
+rgb2gry	r2g.c	/^int rgb2gry(char *infile,char *outfile)$/;"	f
