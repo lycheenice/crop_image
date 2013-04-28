@@ -12,6 +12,10 @@ int HIDIFF=40;   /* The pixel from top image to up edge*/
 /*int WIDIFF=37;  */ /* The pixel from detected brim to left edge*/
 int WIDIFF=0;   /* The pixel from detected brim to left edge*/
 
+int add_new_function()
+{
+	printf("do nothing");
+}
 /* Insert into sorcecode to debug */
 /*
 int debug(int n)
@@ -76,7 +80,7 @@ int main(int argc,char **argv)
 		return -1;
 	}
 	
-		
+	add_new_function();
 	IW=atoi(argv[3]);
 	IH=atoi(argv[4]);
 	LENGTH=IW*IH*3;
