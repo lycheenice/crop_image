@@ -68,23 +68,23 @@ int crop(unsigned char *img,int brim,unsigned char *newImg)
 }
 
 /* Main */
-int main(char *infile,char *outfile)
+int main(int argc,char **argv)
 {
-	/*
+	
 	if(argc!=5){
 		printf("Usage:./rgb2grey inputFile outputFile imgW imgH\n");
 		return -1;
 	}
-	*/
-	/*	
+	
+		
 	IW=atoi(argv[3]);
 	IH=atoi(argv[4]);
 	LENGTH=IW*IH*3;
-	*/
+	/*
 	IW=640;
 	IH=480;
 	LENGTH=IW*IH*3;
-	
+	*/
 	/* 1.Input RGB image*/
 	FILE *fp;
 	unsigned char *A;
